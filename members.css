@@ -1,0 +1,42 @@
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad Flux', sans-serif;
+}
+.flex
+{
+    display: flex;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+section .imgandtext{
+    padding: 30px 2%;
+}
+
+section .imgandtext .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+section .pic{
+    width: 50px;
+    height: 40px;
+}

@@ -1,0 +1,427 @@
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-sans {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad Flux', sans-serif;
+}
+.flex
+{
+    display: flex;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1580px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 4%;
+    /* background-color: #775ad53d; */
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+header a {
+    color: #585555;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+}
+
+header a:hover{
+    color: #999393;
+    transform: scale(1.05);
+    display: inline-block;
+    transition: .30s;
+}
+
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 70px;
+}
+
+header .buttoncontact button {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #775ad5;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+header .buttoncontact button:hover{
+    box-shadow: 0px 0px 8px #ad98beb6;
+}
+
+/* acaba aqui a configuracao do cabeçalho, a partir aqui é do main */
+
+section .top{
+    padding: 30px 2%;
+}
+
+section .top, .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 2300px;
+}
+
+.top h1{
+    color: azure;
+    font-size: 34px;
+    padding-bottom: 7px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.top h1 span{
+    color: #662e93;
+    font-weight: bolder;
+    font-size: 37px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.top .leftside p{
+    color: #c7c5c5;
+    margin: 10px 0;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    padding-right: 160px;
+}
+
+.top .leftside p span{
+    color: #662e93;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+}
+
+.top .leftside p span .hedt
+{
+    color: #713c9c;
+    text-decoration:underline;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+}
+
+section .buttoncontact button {
+    padding: 10px 30px;
+    margin-top: 23px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #662e93;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+}
+
+section .buttoncontact button:hover{
+    box-shadow: 0px 0px 5px rgb(154, 126, 182);
+    transform: scale(1.05);
+    transition: .30s;
+}
+
+/* AQUI COMEÇA O ABOUT US */
+
+section .aboutus{
+    padding: 40px 4%;
+}
+
+section .aboutus, .flex{
+    gap: 55px;
+}
+
+h2.titles{
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "DM Sans", sans-serif;
+    padding-top: 150px;
+    margin-bottom: 60px;
+}
+
+h2.titles span
+{
+    color: #662e93;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "DM Sans", sans-serif;
+}
+
+section .aboutus, .aboutusbox{
+    color: #c7c5c5;
+    padding: 40px;
+    transition: .30s;
+    cursor: pointer;
+    border-radius: 20px;;
+    /* padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 100px;;
+    */
+}
+
+section .aboutus, .aboutusbox:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #8351e060;
+}
+
+section .aboutus, .aboutusbox i{
+    font-size: 60px;
+    color: #662e93;
+}
+
+section .aboutus, .aboutusbox h3{
+    color: #ffffff;
+    font-size: 27px;
+    margin: 10px 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+section .aboutus, .aboutusbox p{
+    font-size: 15px;
+    text-align: justify;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* AQUI COMEÇA A ESTILIZACAO DO SOCIAL MEDIA E NEWS */
+
+section .smnews .flex{
+    padding: 40px 4%;
+
+}
+
+section .smnews .flex{
+    align-items: center;
+} 
+/*.smnews hr{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 1580px;
+} */
+
+.smnews .smnewsimg{
+    width: 440px;
+    margin-top: 50px;
+    padding-top: 70px;
+}
+
+.smnews .smnewsimg:hover{
+    transform: scale(1.03);
+    display: inline-block;
+    transition: .60s;
+}
+
+.smnews .textsmnews h2{
+    font-size: 38px;
+    color: #775ad5;
+    font-weight: bolder;
+    padding-top: 240px;
+    font-family: "DM Sans", sans-serif;
+}
+.smnews .textsmnews h2 span{
+    color: #5900ff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.smnews .textsmnews p{
+    font-size: 30;
+    color: #c7c5c5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 30px;
+}
+
+.smnews .textsmnews a{
+    font-size: 16px;
+    color: #775ad5;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.smnews .textsmnews a span{
+    color: #5900ff;
+    font-size: 17px;
+}
+
+.buttonsocial button{
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #5900ff;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 25px 7px;
+    color: #b3b3b3;
+}
+
+.buttonsocial button:hover{
+    box-shadow: 0px 0px 7px rgb(154, 126, 182);
+    transform: scale(1.05);
+    transition: .30s;
+}
+
+/* AQUI COMEÇA A ESTILIZAÇÃO DO MERCH */
+
+section.more{
+    padding: 80px 4%;
+    box-shadow: 0 0 10px 10px #4e3f7034;
+    margin-top: 200px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+section.more .flex{
+    gap: 24px;
+}
+
+.imgmore{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.imgmore:hover{
+    color: #999393;
+    transform: scale(1.1);
+    display: inline-block;
+    transition: .60s;
+    cursor: pointer;
+}
+
+/* AQUI COMEÇA A ESTILIZACAO DO FORMULARIP */
+
+section.form{
+    padding: 60px;
+}
+
+.form form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input{
+    width: 100%;
+    background-color: #181717;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #b3b3b3;
+}
+
+form textarea{
+    width: 100%;
+    background-color: #181717;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #b3b3b3;
+    resize: none;
+    max-height: 300px;
+}
+
+form .buttonenter{
+    margin-top: 15px;
+    text-align: center;
+}
+
+form .buttonenter input{
+    width: 100px;
+    height: 60px;
+    background-color: #5900ff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 18px;
+    margin-bottom: 120px;
+}
+
+form .buttonenter input:hover{
+    color: #ebe8e8;
+    transform: scale(1.007);
+    display: inline-block;
+    transition: .10s;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #ad98beb6;
+}
+
+/* AQUI COMEÇA A ESTILIZACAO DO FOOTER */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 10px 10px #4e3f7034;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .hrfooter{
+    padding: 20px 0;
+    
+}
+
+footer .hrfooter p i{
+    color: #671c92;
+    margin-left: 21px;
+}
+
+footer .hrfooter a{
+    color: #beb9b9;
+    font-weight: 8;
+    font-size: 18px;
+}
+
+.imgfooter{
+    width: 160px;
+    /* margin-left: 3px;
+    margin-bottom: 5px; */
+}
+
+.border{
+    border-top: 2px solid #5900ff;
+    margin-top: 2px;
+}
+
+.aboutus a{
+    color: #c7c5c5;
+    text-decoration: none;
+} 
